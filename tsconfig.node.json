@@ -14,6 +14,6 @@
 
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "types": ["node", "src/types/typed-router.d.ts"]
+    "types": ["node", "./src/types/typed-router.d.ts"]
   }
 }

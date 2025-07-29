@@ -9,3 +9,8 @@ const text = 123
   <div>{{ text }}</div>
   <div @click="router.push('/login')">login</div>
 </template>
+
+<router>
+
+
+</router>
