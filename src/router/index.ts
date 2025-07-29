@@ -10,4 +10,10 @@ if (import.meta.hot) {
   handleHotUpdate(router)
 }
 
+router.beforeEach(async (to) => {
+  if (to.meta.needLogin) {
+    console.log('need login')
+  }
+})
+
 export default router

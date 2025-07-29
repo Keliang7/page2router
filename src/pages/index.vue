@@ -10,7 +10,13 @@ const text = 123
   <div @click="router.push('/login')">login</div>
 </template>
 
-<router>
-
-
-</router>
+<route lang="json5">
+{
+  name: 'home',
+  meta: {
+    needLogin: true,
+    title: '主页',
+    i18n: 'menus.home',
+  },
+}
+</route>
